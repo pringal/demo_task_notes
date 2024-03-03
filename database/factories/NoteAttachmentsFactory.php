@@ -18,16 +18,13 @@ class NoteAttachmentsFactory extends Factory
      */
     public function definition(): array
     {
-         if (!Storage::disk('public')->exists('uploads')) {
-            Storage::disk('public')->makeDirectory('uploads');
-        }
 
         if (!Storage::disk('public')->exists('files')) {
             Storage::disk('public')->makeDirectory('files');
         }
         return [
             'note_id' => Note::factory(),
-            'attachment_path' => $this->faker->file(storage_path('app/uploads'), storage_path('app/public/files'), false),
+            'attachment_path' => $this->faker->file(public_path('images'), storage_path('app/public/files'), false),
         ];
     }
 }
