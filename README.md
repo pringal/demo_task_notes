@@ -8,7 +8,8 @@
 ## Getting Started
 ## Clone the Repository
 - git clone https://github.com/pringal/task_notes_demo.git
-
+- Create an env file
+``cp .env.example .env``
 ## Set Up Environment Variables
 ## Add Database configuration as per your setup in .env file from root
 File: .env
