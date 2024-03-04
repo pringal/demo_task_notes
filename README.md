@@ -7,7 +7,8 @@
 
 ## Getting Started
 ## Clone the Repository
-- git clone https://github.com/pringal/task_notes_demo.git
+- git clone https://github.com/pringal/demo_task_notes.git
+- cd demo_task_notes
 - Create an env file
 ``cp .env.example .env``
 ## Set Up Environment Variables
