@@ -25,6 +25,6 @@ class NoteAttachments extends Model
 
     public function getAttachmentPath()
     {
-        return Storage::disk('public')->url('files/' . $this->attachment_path);
+        return Storage::disk('public')->url('uploads/' . $this->attachment_path);
     }
 }
