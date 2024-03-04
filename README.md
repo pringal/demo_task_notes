@@ -27,7 +27,6 @@ DB_PASSWORD=
 Run the following command to install the project dependencies:
 
 ```
-cd task_notes_demo
 composer install
 ````
 
