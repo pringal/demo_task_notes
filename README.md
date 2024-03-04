@@ -11,6 +11,8 @@
 - ``cd demo_task_notes``
 - Create an env file
 ``cp .env.example .env``
+- ``php artisan key:generate``
+  
 ## Set Up Environment Variables
 ## Add Database configuration as per your setup in .env file from root
 File: .env
