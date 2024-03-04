@@ -24,6 +24,7 @@ DB_USERNAME=
 DB_PASSWORD=
 ```
 
+- Add your local/live domain name in APP_URL, in my case it is 'http://127.0.0.1:8000'
 ## Install Dependencies
 Run the following command to install the project dependencies:
 
@@ -41,6 +42,7 @@ Run the migrations to set up the database schema:
 
 - `php artisan passport:keys`
 - `php artisan passport:client --personal`
+- `php artisan storage:link`
 
 ## API's
 
