@@ -77,3 +77,5 @@ admin@admin.com | password
 - Response of the API will be like this
 
 ![](public/images/get-tasks-response.png)
+
+- Here user will get the response of tasks and child notes of the tasks and the attachments of the notes.
